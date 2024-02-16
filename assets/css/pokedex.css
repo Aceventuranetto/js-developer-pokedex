@@ -97,6 +97,14 @@
     text-transform: capitalize;
     color: #fff;
     margin-bottom: .25rem;
+    border: none;
+    background-color: transparent;
+    text-align: left;
+}
+
+.pokemon .name:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .pokemon .detail {
@@ -144,6 +152,7 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 380px) {
